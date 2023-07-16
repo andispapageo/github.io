@@ -2380,6 +2380,17 @@ html.no-csstransitions .home-content__main {
 }
 
 
+.custom-list {
+
+    list-style-image: url('img/bullet.png');
+
+}
+
+.simple-list__item::marker {
+    color: #dbdbdb;
+    font-size: 16px;
+    line-height: 1;
+}
 /* ------------------------------------------------------------------- 
  * ## services list
  * ------------------------------------------------------------------- */
