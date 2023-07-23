@@ -90,7 +90,7 @@ body {
  * ## links
  * ------------------------------------------------------------------- */
 a {
-    color: #0087cc;
+    color: #daa520;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -103,7 +103,9 @@ a:hover, a:active {
     outline: 0;
 }
 
-
+.green-valey{
+    color: #4de450;
+}
 
 /* ===================================================================
  * # typography & general theme styles
@@ -335,7 +337,7 @@ ol {
 }
 
 ul {
-    list-style: revert;
+    list-style: none;
 }
 
 li {
@@ -2202,9 +2204,9 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-about {
-    padding-top: 11rem;
+    padding-top: 5rem;
     padding-bottom: 7rem;
-    background-color: #0c1015;
+    background-color: #1c232b;
     color: grey;
     position: relative;
 }
