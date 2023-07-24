@@ -796,17 +796,17 @@ input[type="button"] {
     letter-spacing: .3rem;
     height: 5.4rem;
     line-height: calc(5.4rem - .4rem);
-    padding: 0 3rem;
-    margin: 0 .3rem 1.2rem 0;
-    color: #000000;
+    padding: 0px 2rem;
+    margin: 1rem .3rem 4.2rem 0;
+    color: #48ff00;
     text-decoration: none;
     text-align: center;
     white-space: nowrap;
     cursor: pointer;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #c5c5c5;
-    border: .2rem solid #c5c5c5;
+    background-color: transparent;
+    border: .2rem solid #48ff0059;
 }
 
 .btn:hover,
