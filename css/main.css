@@ -837,7 +837,7 @@ input[type="button"]:focus {
 
 .styled-list li {
     padding: 15px 20px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #b3b3b3a2;
 }
 
 .styled-list li:last-child {
