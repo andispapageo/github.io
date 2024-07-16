@@ -825,7 +825,28 @@ input[type="button"]:focus {
     outline: 0;
 }
 
+.styled-list {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff02;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
 
+.styled-list li {
+    padding: 15px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.styled-list li:last-child {
+    border-bottom: none;
+}
+
+.styled-list li:hover {
+    background-color: #ffffff02;
+}
 /* button primary
  * ------------------------------------------------- */
 
